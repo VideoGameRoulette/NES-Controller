@@ -1,0 +1,158 @@
+/*BEGIN custom Controller Styling*/
+.controller.custom {
+    background: url(https://raw.githubusercontent.com/VideoGameRoulette/custom-Controller/master/base.png);
+    width: 832px;
+    height: 391px;
+    /*    margin-left: -416px;
+        margin-top: -175px;*/
+}
+
+.custom.disconnected {
+    background: url(custom-assets/base-disconnect.png);
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .quadrant {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16pt;
+    color: white;
+    position: absolute;
+    height: 17px;
+    width: 180px;
+    top: 90px;
+    left: 50px;
+    text-align: center;
+}
+
+.custom .p0:after {
+    content: 'Player 1';
+}
+
+.custom .p1:after {
+    content: 'Player 2';
+}
+
+.custom .p2:after {
+    content: 'Player 3';
+}
+
+.custom .p3:after {
+    content: 'Player 4';
+}
+
+.custom .arrows {
+    position: absolute;
+    width: 189px;
+    height: 22px;
+    top: 251px;
+    left: 288px;
+}
+
+.custom .back, .custom .start {
+    background: url(https://raw.githubusercontent.com/VideoGameRoulette/custom-Controller/master/menu.png);
+    width: 73px;
+    height: 20px;
+}
+
+.custom .back.pressed, .custom .start.pressed {
+    background-position-y: -21px;
+    margin-top: 4px;
+}
+
+.custom .back {
+    float: left;
+}
+
+.custom .start {
+    float: right;
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 180px;
+    height: 74px;
+    top: 223px;
+    left: 570px;
+}
+
+.custom .button {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    background: url(https://raw.githubusercontent.com/VideoGameRoulette/custom-Controller/master/buttons.png);
+    top: 0;
+}
+
+.custom .button.pressed {
+    background-position-y: -77px;
+    margin-top: 5px;
+}
+
+.custom .a {
+    right: 0;
+}
+
+.custom .b {
+    left: 0px;
+}
+
+.custom .x, .custom .y {
+    display: none;
+}
+
+.custom .dpad {
+    position: absolute;
+    width: 135px;
+    height: 131px;
+    top: 150px;
+    left: 66px;
+}
+
+.custom .face {
+    background: url(https://raw.githubusercontent.com/VideoGameRoulette/custom-Controller/master/dpad.png);
+    position: absolute;
+    width: 39px;
+    height: 37px;
+}
+
+.custom .face.up, .custom .face.down {
+    left: 48px;
+    width: 35px;
+}
+
+.custom .face.left, .custom .face.right {
+    top: 49px;
+}
+
+.custom .face.up {
+    top: 0;
+    background-position: 109px 0px;
+}
+
+.custom .face.down {
+    top: 98px;
+    background-position: 75px 0;
+}
+
+.custom .face.left {
+    left: 0;
+    background-position: 0px 0;
+}
+
+.custom .face.right {
+    right: 0px;
+    background-position: 39px 0;
+}
+
+.custom .face.pressed {
+    background-position-y: 38px;
+}
+
+.custom.half {
+    margin-top: -195px;
+}
+
+/*END custom Controller Styling*/
